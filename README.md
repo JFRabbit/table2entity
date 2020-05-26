@@ -2,7 +2,32 @@
 
 数据库Table转实体
 
-```bash
+---
+
+### 安装依赖
+```shell script
+./install.sh
+```
+
+### 创建配置文件
+```shell script
+./init_config.sh
+```
+
+修改配置文件中的数据库配置
+
+### 打包
+```shell script
+./package_mac.sh
+```
+
+### 调试
+
+需要在/table_to_entity路径创建文件config,存放配置文件config.yaml
+
+### Demo
+
+```shell script
 ./tte --template tscypress --table_name job --entity_name Job
 ```
 
